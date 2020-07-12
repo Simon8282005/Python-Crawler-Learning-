@@ -1,0 +1,4 @@
+爬取网页的流程：
+- r.status_code 来检查是否连接成功
+	- 成功的话，用r.text r.encoding r.apparent_encoding r.content来解析网页内容
+	- 失败的话：代表有错误

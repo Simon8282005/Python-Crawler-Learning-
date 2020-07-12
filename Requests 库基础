@@ -1,0 +1,13 @@
+Requests 库基础：
+
+- r = re.get(url, params, **kwargs)
+- url = 网址
+- params = url中额外的参数
+- **kwargs = 12个控制访问的参数
+
+- r 是response对象，包含从服务器获得的所有信息
+r = re.get('https://www.google.com')  
+print(r.status_code)  # 200, 如果不是200则代表访问失败
+print(r.headers)  # 获取‘头部’信息
+
+

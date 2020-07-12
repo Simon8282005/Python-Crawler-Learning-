@@ -1,0 +1,6 @@
+Response 类的方法：
+- r.status_code  # http请求的返回状态，200表连接成功，404是失败
+- r.text  # 获得网络页面的字符串形式
+- r.encoding  # 从http header中猜测出来的编码方式
+- r.apparent_encoding  # 从内容分析出来的编码方式
+- r.content  # 从二进制形式还原文件

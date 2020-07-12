@@ -1,0 +1,5 @@
+理解Response的编码：
+- r.encoding: 从网页的charset中猜测编码形式，如果header中不存在charset，则设定默认编码为ISO-8859-1(不能显示中文)
+- r.apparent_encoding: 分析网页，获得编码形式
+
+结论：r.apparent_encoding 比 r.encoding 更准确
