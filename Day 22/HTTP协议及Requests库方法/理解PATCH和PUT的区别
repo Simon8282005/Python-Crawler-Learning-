@@ -1,0 +1,7 @@
+理解PATCH和PUT的区别：
+假设URL位置有一组数据UserInfo，包过UserID、UserName等20个字段
+需求：用户修改UserName，其他不变
+～采用PATCH，仅向URL提交UserName的局部更新要求
+～采用PUt，必须将所以20个字段一起提交到URL，没有提交字段被删除
+PATCH的好处：
+PATCH可以节省网络带宽

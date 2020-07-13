@@ -1,0 +1,8 @@
+Requests 库异常：
+
+- requests.ConnectionError: 网络连接异常
+- requests.HTTPError： HTTP错误异常
+- requests.URL.Required: URL缺失异常
+- requests.TooManyRedirects: 超过最大重定向数，产生异常
+- requests.ConnectTimeout: 连接服务器异常（包过回传内容）
+- requests.Timeout: 请求URL连接时异常（不包过回传内容，仅仅是连接网速等等问题连接不到服务器）
